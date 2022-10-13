@@ -32,7 +32,7 @@ We recommend the following extensions:
 
 ### Optional: Install WSL2 on Windows (Windows Subsystem for Linux)
 
-We recommend the installation of WSL2. Follow the steps here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+We recommend the installation of WSL2. Follow the steps here: https://learn.microsoft.com/en-us/windows/wsl/install
 
 After the installation of WSL2 you can enable the Docker Desktop integration (again through the Docker Desktop settings).
 

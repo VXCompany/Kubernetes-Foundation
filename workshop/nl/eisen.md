@@ -34,7 +34,7 @@ De volgende plugins zijn aan te raden:
 
 Wanneer je op Windows werkt is het raadzaam om WSL2 te installeren. Dit vraagt wel een bepaalde versie van Windows 10 of Windows 11, maar als je de stappen in de documentatie volgt kom je er achter of je systeem geschikt is. Het is een optionele stap, maar WSL geeft je wel een fijne omgeving (en betere performance) als je straks verder gaat met het ontwikkelen op Kubernetes.
 
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
+https://learn.microsoft.com/en-us/windows/wsl/install
 
 Na de installatie van WSL2 kun je in Docker Desktop de integratie inschakelen (wederom via de Docker Desktop settings).
 
