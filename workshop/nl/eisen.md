@@ -8,7 +8,7 @@ Installeer Docker Desktop op je laptop, daarmee krijg je alle tools voor zowel D
 
 ![Docker Desktop installatie logo](/images/dockerdesktop.png)
 
-Bij het gebruik van Docker Desktop op Windows is het gebruik van Linux containers (in plaats van Windows containers) aan te raden. Je vindt deze instelling via het Task Bar icon (in deze stand staat hij dus goed):
+Bij het gebruik van Docker Desktop op Windows is het gebruik van Linux containers (in plaats van Windows containers) aan te raden. Je vindt deze instelling via het Task Bar icon in de System Tray (in deze stand staat hij dus goed):
 
 ![Docker Desktop installatie logo](/images/linuxcontainers.png)
 
