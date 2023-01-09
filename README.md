@@ -1,10 +1,9 @@
 # Kubernetes-Foundation
 
-Training material for the Kubernetes Foundation workshop. This content is also available in [Dutch / Nederlands](LEESMIJ.md)
-
 ![Kubernetes Training Logo](images/kubetraining.png)
 
-## Preparation workshop
+Training materiaal voor de Kubernetes Foundation workshop. De content is ook beschikbaar in het Engels: [English / ENgels](INTRO.md)
 
-To be able to complete the workshop some preparations are needed. Just follow this [preparation guide](workshop/en/preparation.md). Attendees should do this before the workshop starts.
+## Voorbereidingen workshop
 
+Om deze workshop te kunnen volgen, moet je een aantal voorbereidingen treffen. Volg hiervoor de volgende stappen uit de [voorbereiding](workshop/nl/voorbereiding.md). Deelnemers moeten deze stappen doen voor de workshop begint.
