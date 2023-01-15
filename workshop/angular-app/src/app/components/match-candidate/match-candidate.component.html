@@ -1,0 +1,25 @@
+<div class="card-wrapper">
+  <mat-card class="box candidate">
+    <mat-card-header>
+      <mat-card-title>
+        <b>{{ this.candidate.name }}</b>
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        <img class="" [src]="this.candidate.avatar"/>
+        <mat-chip-set>
+          <mat-chip *ngFor="let prop of this.candidate?.props"><b>{{ prop }}</b></mat-chip>
+        </mat-chip-set>
+      </p>
+      <mat-card-actions>
+        <button mat-fab color="primary" (click)="favorite()">
+          <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-fab color="primary" (click)="clear()">
+          <mat-icon>cancel</mat-icon>
+        </button>
+      </mat-card-actions>
+    </mat-card-content>
+  </mat-card>
+</div>

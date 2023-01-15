@@ -1,0 +1,5 @@
+{
+  "useStub": "true",
+  "environmentName": "develop",
+  "endPointApiUrl": "http://localhost:8080"
+}

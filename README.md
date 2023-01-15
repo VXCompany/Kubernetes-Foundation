@@ -2,7 +2,7 @@
 
 ![Kubernetes Training Logo](images/kubetraining.png)
 
-Training materiaal voor de Kubernetes Foundation workshop. De content is ook beschikbaar in het Engels: [English / ENgels](INTRO.md)
+Training materiaal voor de Kubernetes Foundation workshop. De content is ook beschikbaar in het Engels: [English / Engels](INTRO.md)
 
 ## Voorbereidingen workshop
 
