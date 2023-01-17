@@ -21,7 +21,7 @@ export class MatchCandidateComponent implements OnInit {
 
   getNext() {
     this.matchService.getNext().subscribe((response) => {
-      this.candidate = response;
+      this.candidate = response[Math.floor(Math.random() * Math.floor(response.length))];
     });
   }
 

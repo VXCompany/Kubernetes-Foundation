@@ -1,9 +1,9 @@
 import {Injectable} from '@angular/core';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 import {Candidate} from './candidate';
 import {Observable, of} from 'rxjs';
-import {CANDIDATES} from './candidates-stub';
 import {AppConfig} from 'src/app/app.config.service';
+import { CANDIDATES } from './candidates-stub';
 
 @Injectable({
   providedIn: 'root',
@@ -11,20 +11,14 @@ import {AppConfig} from 'src/app/app.config.service';
 export class MatchService {
   apiURL = AppConfig.settings.endPointApiUrl;
 
-//  httpOptions = {
-//    headers: new HttpHeaders({
-//      'Content-Type': 'application/json',
-//    }),
-//  };
-
   constructor(private http: HttpClient) {
   }
 
-  getNext(): Observable<Candidate> {
+  getNext(): Observable<Candidate[]> {
     if (AppConfig.settings.useStub) {
-      return of(CANDIDATES[Math.floor(Math.random() * Math.floor(3))]);
+      return of(CANDIDATES);
     }
 
-    return this.http.get<Candidate>(`${this.apiURL}/candidates/match`);
+    return this.http.get<Candidate[]>(`${this.apiURL}/candidates`);
   }
 }

@@ -1,5 +1,5 @@
 {
-  "useStub": "false",
+  "useStub": false,
   "environmentName": "production",
   "endPointApiUrl": "#{END_POINT_API_URL}#"
 }
