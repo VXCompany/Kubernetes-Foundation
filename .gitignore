@@ -348,3 +348,11 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Jetbrains local directories
+.idea
+.fleet
+
+# Drawio temp files
+*.$*.drawio*
+
