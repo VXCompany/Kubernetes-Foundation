@@ -24,7 +24,7 @@ In de workshop kan er gekozen worden voor een Spring Boot API of een .NET API (i
 
 Tijdens de workshop zul je verschillende Kubernetes componenten uitrollen en zo kennismaken met Kubernetes Resources, YAML, de nodige CLI's en Helm Charts.
 
-[Afbeelding volgt]
+![components2.png](images/components2.png)
 
 ## Componenten
 
