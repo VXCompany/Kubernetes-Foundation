@@ -26,11 +26,11 @@ Tijdens de workshop zul je verschillende Kubernetes componenten uitrollen en zo 
 
 ![components2.png](images/components2.png)
 
-## Componenten
+## Images
 
-Tijdens de workshop zul je verschillende Kubernetes componenten uitrollen en zo kennismaken met Kubernetes Resources, YAML, de nodige CLI's en Helm Charts.
+Tijdens de workshop zullen we de images voor de Angular app en de Spring Boot of .NET API zelf bouwen.
 
-[Afbeelding volgt]
+![images.png](images%2Fimages.png)
 
 ## Workshop introductie
 
